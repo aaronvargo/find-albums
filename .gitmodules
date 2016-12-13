@@ -1,0 +1,3 @@
+[submodule "spoty"]
+	path = spoty
+	url = https://github.com/aaronvargo/spoty

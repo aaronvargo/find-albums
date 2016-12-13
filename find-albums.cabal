@@ -1,0 +1,27 @@
+name:                find-albums
+version:             0.1.0.0
+synopsis:            Simple project template from stack
+description:         Please see README.md
+homepage:            https://github.com/aaronvargo/find-albums#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Aaron Vargo
+maintainer:          aaronvargo@users.noreply.github.com
+copyright:           Aaron Vargo 2016
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable find-albums
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:
+                       base >= 4.7 && < 5
+                     , http-conduit
+                     , http-types
+                     , tagsoup
+                     , spoty
+                     , lens
+                     , text
